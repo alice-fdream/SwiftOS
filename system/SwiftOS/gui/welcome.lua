@@ -23,7 +23,7 @@ window1Container:addChild(GUI.panel(2, window1Container.height, panel.width, 1, 
 window1Container:addChild(GUI.panel(window1Container.width, 2, 1, panel.height-1, shadow_window))
 window1Container.touchX, window1Container.touchY = 0, 0
 window1Container:addChild (GUI.image (21, 3, buffer.loadImage("/system/images/logo.pic")))
-window1Container:addChild (GUI.label (22, 13, panel.width, 1, text, "SwiftOS Appalachi"))
+window1Container:addChild (GUI.label (22, 13, panel.width, 1, text, "SwiftOS Invintium"))
 local ends = GUI.roundedButton(4, 15, 53, 3, button_def, button_text, button_active, button_text, 'Завершить установку')
 window1Container:addChild(ends).onTouch = function()
 
