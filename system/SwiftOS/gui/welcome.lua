@@ -1,7 +1,7 @@
 local buffer = require("NyaDraw")
 local GUI = require("GUI")
 local computer = require("computer")
-local themes = require("/system/SwiftOS/themes/get_them")
+local themes = require("get_them")
 gpu = require('component').gpu
 local fs = require('filesystem')
 ------------------------------------------------------------------------------------------
@@ -35,15 +35,15 @@ window1Container:addChild(ends).onTouch = function()
   window1Container:addChild(GUI.panel(window1Container.width, 2, 1, panel.height-1, shadow_window))
   window1Container.touchX, window1Container.touchY = 0, 0
 
-  local port = GUI.input(25, 5, 7, 1, input_back, text, text, input_back_foc, text, "", "Порт")
+  local port = GUI.input(25, 5, 7, 1, input_back, input_text, input_text, input_back_foc, input_text, "", "Порт")
     window1Container:addChild(port)
 
 
-local login = GUI.input(5, 7, 50, 3, input_back, text, text, input_back_foc, text, "", "Ваш логин")
+local login = GUI.input(5, 7, 50, 3, input_back, input_text, input_text, input_back_foc, input_text, "", "Ваш логин")
   window1Container:addChild(login)
 
 
-  local password = GUI.input(5, 11, 50, 3, input_back, text, text, input_back_foc, text, "", "Твой пароль")
+  local password = GUI.input(5, 11, 50, 3, input_back, input_text, input_text, input_back_foc, input_text, "", "Твой пароль")
     window1Container:addChild(password)
 
 
