@@ -111,6 +111,7 @@ infosystem:addChild (GUI.label (28, 5, x0pan.width, x0pan.height, text, os.geten
 infosystem:addChild (GUI.label (28, 6, x0pan.width, x0pan.height, text, 'Версия: ' .. os.getenv('VER')))
  infosystem:addChild (GUI.label (28, 7, x0pan.width, x0pan.height, text, 'Пользователь: ' .. os.getenv("PLA")))
  infosystem:addChild (GUI.label (28, 8, x0pan.width, x0pan.height, text, 'RAM: ' .. (computer.totalMemory() / 1024) / 1024 .. ' МБ'))
+  infosystem:addChild (GUI.label (28, 9, x0pan.width, x0pan.height, text, 'Порт: ' .. port))
  infosystem:addChild (GUI.roundedButton (2, 1, 3, 3, close_button, button_text, button_active, button_text, 'X')).onTouch = function ()
 		infosystem:remove()
 		mainContainer:draw()
