@@ -48,7 +48,7 @@ local login = GUI.input(5, 8, 50, 3, input_back, input_text, input_text, input_b
 
 
 
-    local ends = GUI.roundedButton(4, 15, 53, 3, button_def, button_text, button_active, button_text, 'Сохранить')
+    local ends = GUI.roundedButton(4, 16, 53, 3, button_def, button_text, button_active, button_text, 'Сохранить')
     window1Container:addChild(ends).onTouch = function()
 
       local p1 = io.open('/system/systemDATA/localhost/port', 'w')
