@@ -30,7 +30,7 @@ sms_send:addChild(smss)
 
 local ok = GUI.roundedButton (2, 7, 57, 3, button_def, button_text, button_active, button_text, 'Отправить')
 sms_send:addChild(ok).onTouch = function()
-  pp = io.open('/system/SwiftOS/chat/port')
+  pp = io.open('/system/systemDATA/localhost/port')
   port = pp:read()
   local portik = tonumber(portt.text)
   modem.broadcast(portik, os.getenv('PLA'))
