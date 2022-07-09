@@ -35,15 +35,15 @@ window1Container:addChild(ends).onTouch = function()
   window1Container:addChild(GUI.panel(window1Container.width, 2, 1, panel.height-1, shadow_window))
   window1Container.touchX, window1Container.touchY = 0, 0
 
-  local port = GUI.input(25, 5, 7, 1, input_back, input_text, input_text, input_back_foc, input_text, "", "Порт")
+  local port = GUI.input(5, 4, 50, 3, input_back, input_text, input_text, input_back_foc, input_text, "", "Порт для смс")
     window1Container:addChild(port)
 
 
-local login = GUI.input(5, 7, 50, 3, input_back, input_text, input_text, input_back_foc, input_text, "", "Ваш логин")
+local login = GUI.input(5, 8, 50, 3, input_back, input_text, input_text, input_back_foc, input_text, "", "Ваш логин")
   window1Container:addChild(login)
 
 
-  local password = GUI.input(5, 11, 50, 3, input_back, input_text, input_text, input_back_foc, input_text, "", "Твой пароль")
+  local password = GUI.input(5, 12, 50, 3, input_back, input_text, input_text, input_back_foc, input_text, "", "Твой пароль")
     window1Container:addChild(password)
 
 
