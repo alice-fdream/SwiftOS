@@ -26,12 +26,15 @@
 ![Снимок экрана 2022-07-09 в 10 01 58](https://user-images.githubusercontent.com/108939275/178095515-d96ba3b0-e245-4cb9-a4be-c305f503c74c.png)
 
 ## Программы
-Программы лежать в /system/apps/
+Программы лежат в /system/apps/
 Структура программы:
 
 PATH: /system/apps/
+
 FOLDER: CALC
+
 PATH: /system/apps/CALC/
+
 FILES: CALC.LUA, CALC.PIC
 
 ![Снимок экрана 2022-07-09 в 10 05 03](https://user-images.githubusercontent.com/108939275/178095616-0417e67c-78b1-404b-b9b4-4d6dae4e0bdf.png)
