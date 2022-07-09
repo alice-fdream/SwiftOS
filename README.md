@@ -21,7 +21,8 @@
 
 ## Менеджер тем
 Существует внешняя программа для создания тем, темы лежат по пути /system/SwiftOS/themes/list/
-Для скачивания она пока не доступна.
+Установка: https://github.com/alice-fdream/SwiftOS/blob/main/themes.jar?raw=true
+
 
 ![Снимок экрана 2022-07-09 в 10 01 58](https://user-images.githubusercontent.com/108939275/178095515-d96ba3b0-e245-4cb9-a4be-c305f503c74c.png)
 
